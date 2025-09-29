@@ -1,11 +1,26 @@
 import React from "react";
+import Hero from "../components/Hero/Hero";
+import About from "../components/About";
+import Features from "../components/Features";
+import MapShowcase from "../components/MapShowcase";
+import Community from "../components/Community";
+import HowItWorks from "../components/HowItWorks";
+import Testimonials from "../components/Testimonials";
+import Partners from "../components/Partners";
+import CTA from "../components/CTA";
 
 function Main() {
   return (
     <div>
-      <div className="text-center bg-blue-500 text-white text-3xl p-10">
-       React project
-      </div>
+      <Hero />
+      <About />
+      <Features />
+      <MapShowcase />
+      <Community />
+      <HowItWorks />
+      <Testimonials />
+      <Partners />
+      <CTA />
     </div>
   );
 }
