@@ -5,7 +5,7 @@ export default function Features() {
     <section className="w-full bg-white overflow-hidden">
       <div className="max-w-[1920px] mx-auto max-h-[868px] flex items-center justify-center gap-[0.01px]  bg-white pb-[60px] max-md:flex-col max-md:pb-10 max-sm:pb-[30px] max-md:px-[100px] px-[100px]">
         <section
-          className="flex max-w-[1920px] flex-col justify-center items-center gap-[100px]  pl-0 md:pr-[150px] pr-[10px] pt-[70px] pb-0 border-r-[#343438] border-t-[#343438] border-[sectionpx] border-t border-solid border-r max-md:gap-[60px] max-md:pl-0 max-md:pr-[50px] max-md:pt-[50px] max-md:pb-0 max-sm:gap-10 max-sm:pl-0 max-sm:pr-5 max-sm:pt-[30px] max-sm:pb-0"
+          className="flex max-w-[1920px] flex-col justify-center items-center gap-[100px]  pl-0 md:pr-[150px] pr-[10px] pt-[70px] pb-0 border-r-[#343438] border-t-[#343438] border-t border-solid border-r max-md:gap-[60px] max-md:pl-0 max-md:pr-[50px] max-md:pt-[50px] max-md:pb-0 max-sm:gap-10 max-sm:pl-0 max-sm:pr-5 max-sm:pt-[30px] max-sm:pb-0"
           aria-labelledby="main-heading"
         >
           <div className="flex flex-col items-start relative">
@@ -68,7 +68,7 @@ export default function Features() {
         <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/6dc154155847bafd0d61c7629f5a3a9e2a54a674?width=2618"
           alt="Modern Uzenco gas station with quality standards"
-          className="flex-1 h-[620px] object-cover max-md:w-full max-md:h-[420px] absolute right-0"
+          className="flex-1 h-[620px] object-cover max-md:w-full max-md:h-[420px]"
         />
       </div>
     </section>
