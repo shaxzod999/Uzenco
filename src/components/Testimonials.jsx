@@ -3,9 +3,9 @@ import React from "react";
 export default function Testimonials() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto">
-        <div className="flex relative flex-col justify-end items-start self-stretch px-52 py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
-          <div className="flex relative items-end self-stretch">
+      <div className="max-w-[1920px] mx-auto ">
+        <div className="flex relative flex-col justify-center items-center self-stretch">
+          <div className="flex relative items-end self-stretch px-[100px] py-[50px] pt-[100px]">
             <div className="flex relative items-end self-stretch flex-[1_0_0]">
               <div className="flex relative flex-col gap-6 justify-end items-start">
                 <div className="flex relative flex-col items-start self-stretch">
@@ -20,7 +20,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div className="flex relative flex-col justify-end items-start px-0 pt-12 pb-24">
+          <div className="flex relative flex-col justify-end items-start px-[200px] max-md:pl-5 pb-[100px]">
             <div className="flex relative gap-0 items-start pb-16">
               <div className="flex relative items-end self-stretch pt-16 pr-24 pb-0 pl-0 border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 max-md:pt-12 max-md:pr-12 max-md:pb-0 max-md:pl-0 max-sm:pt-8 max-sm:pr-5 max-sm:pb-0 max-sm:pl-0 max-sm:border-r-[none]">
                 <div className="flex relative flex-col items-start">

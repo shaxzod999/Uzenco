@@ -1,10 +1,24 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import img1 from "../assets/images/Frame 1244830965.png";
+import img2 from "../assets/images/Frame 1244830968.png";
+import img3 from "../assets/images/Frame 1244830965.png";
+import img4 from "../assets/images/Frame 1244830966.png";
+import img5 from "../assets/images/Frame 1244830967.png";
+import img6 from "../assets/images/Frame 1244830968.png";
 
 export default function CTA() {
+  const images = [img1, img2, img3, img4, img5, img6];
+
   return (
     <div className="">
       <div className="px-20 text-neutral-700 max-md:pl-5">
-        <div className="flex overflow-hidden flex-col justify-center items-center pt-36 pb-52 bg-white max-md:py-24 max-md:max-w-full">
+        <div className="flex overflow-hidden flex-col justify-center items-center  pb-52 bg-white max-md:py-24 max-md:max-w-full">
           <div className="flex self-stretch w-full text-base font-semibold tracking-wide leading-none uppercase max-md:max-w-full">
             <div className="flex flex-1 shrink items-end basis-0 min-w-60 size-full max-md:max-w-full">
               <div className="gap-6 w-full">
@@ -49,11 +63,34 @@ export default function CTA() {
               </div>
             </div>
           </div>
-          <img
-            src="https://api.builder.io/api/v1/image/assets/cb15d3f09a3b4320b834af2eefdebf28/02a07dd73ddb2596dc8ef3e8c33a7602e4693c9f?placeholderIfAbsent=true"
-            className="object-contain gap-0 max-w-full aspect-[5.41] w-[2085px]"
-            alt="Partners visual representation"
-          />
+
+          <div className="w-full py-10 bg-white">
+            <Swiper
+              modules={[Autoplay]}
+              spaceBetween={10}
+              slidesPerView={5}
+              autoplay={{ delay: 2500, disableOnInteraction: false }}
+              loop={true}
+              className="w-full mx-auto"
+              breakpoints={{
+                320: { slidesPerView: 1 },
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 5 }, // 1024 dan katta ekranlarda 5 ta ko‘rsatadi
+              }}
+            >
+              {images.map((src, index) => (
+                <SwiperSlide key={index}>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src={src}
+                      alt={`Partner ${index + 1}`}
+                      className="object-contain max-w-[385px] max-h-[385px] ml-3"
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>

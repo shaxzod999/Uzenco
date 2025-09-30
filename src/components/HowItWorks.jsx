@@ -41,12 +41,12 @@ export default function HowItWorks() {
   return (
     <section className="w-full bg-white overflow-hidden">
       <div className="max-w-[1920px] mx-auto relative">
-        <main className="flex flex-col justify-end items-start self-stretch bg-[#D9D9DD] px-[200px] py-[150px] max-md:px-[50px] max-md:py-[100px] max-sm:px-5 max-sm:py-[50px]">
-          <div className="flex flex-col items-start self-stretch">
-            <header className="flex flex-col items-start self-stretch">
-              <div className="flex items-end self-stretch">
-                <div className="flex items-end flex-1 self-stretch">
-                  <div className="flex flex-col justify-end items-start gap-[23.2px]">
+        <main className="w-full flex flex-col justify-end items-start self-stretch bg-[#D9D9DD]">
+          <div className="flex flex-col items-center self-stretch">
+            <header className="w-full flex flex-col items-center self-stretch">
+              <div className="w-full flex justify-center self-stretch pl-[100px] py-[50px] pt-[100px]">
+                <div className="w-full flex items-start flex-1 self-stretch">
+                  <div className="w-full flex flex-col items-start justify-start self-stretch gap-[23.2px]">
                     <nav className="flex flex-col items-start self-stretch">
                       <span className="text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase">
                         НАША КОМАНДА
@@ -56,7 +56,7 @@ export default function HowItWorks() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-[0.01px] pt-[50px] pb-[60px] px-0 max-sm:flex-col max-sm:gap-5">
+              <div className="flex items-start gap-[0.01px] max-sm:flex-col max-sm:gap-5 px-[200px] max-md:pl-5 pb-[50px]">
                 <div className="flex w-[757px] items-end self-stretch pl-0 pr-[100px] pt-[70px] pb-0 border-r-[#343438] border-t-[#343438] border-t border-solid border-r max-md:w-auto max-md:pl-0 max-md:pr-[50px] max-md:pt-[50px] max-md:pb-0 max-sm:w-full max-sm:pt-[30px] max-sm:pb-0 max-sm:px-0 max-sm:border-r-[none]">
                   <div className="flex flex-col items-start">
                     <h1 className="w-[605px] text-[#343438] text-8xl font-normal leading-[100px] tracking-[-2px] max-md:text-7xl max-md:leading-[76px] max-md:w-auto max-sm:text-5xl max-sm:leading-[52px] max-sm:w-full">
@@ -106,7 +106,7 @@ export default function HowItWorks() {
               </div>
             </header>
 
-            <section className="flex flex-col justify-end items-start pt-[50px] pb-[100px] px-0">
+            <section className="flex flex-col justify-end items-start pt-[50px] px-0 ">
               <div className="flex items-start gap-[0.01px] pb-[60px] max-md:flex-wrap max-sm:flex-col">
                 {features.map((feature, index) => (
                   <article
@@ -139,21 +139,21 @@ export default function HowItWorks() {
               </div>
             </section>
 
-            <section className="flex h-[1159px] items-start gap-[50px] self-stretch px-0 py-[50px] max-md:flex-col max-md:h-auto max-md:gap-[50px]">
-              <div className="flex items-start  self-stretch relative max-md:order-2 left-0">
-                <div className=" n n nn nnncleft-[-200px] bottom-[-50.41px] bg-white max-md:hidden" />
+            <section className="w-full flex items-start gap-[50px] self-stretch max-md:flex-col max-md:h-auto max-md:gap-[50px] max-md:pl-5 md:py-[100px] pt-[50px]">
+              <div className=" flex items-start  self-stretch relative max-md:order-2 left-0">
+                <div className="bottom-[-50.41px] bg-white max-md:hidden" />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/bc4969cf54db4a3ac0bb92b6a1a78e22e10391ac?width=1566"
                   alt="Professional team member representing Uzenco's expertise in energy logistics"
-                  className="w-[783px] h-[1109px] aspect-[783/1109] relative max-md:w-full max-md:h-auto max-md:static max-md:right-auto max-md:bottom-auto"
+                  className="w-[960px] h-[1159px] object-cover aspect-[783/1109] relative max-md:w-full max-md:h-auto max-md:static max-md:right-auto max-md:bottom-auto"
                 />
-                <span className="absolute text-[#343438] text-[15.4px] font-semibold leading-[15.4px] uppercase top-[75.41px] max-md:static max-md:mb-5 max-md:top-auto">
+                <span className="absolute left-[10%] text-[#343438] text-[15.4px] font-semibold leading-[15.4px] uppercase top-[75.41px] max-md:static max-md:mb-5 max-md:top-auto">
                   НАША КОМАНДА
                 </span>
               </div>
 
               <div className="flex flex-col items-start gap-[50px] flex-1 max-md:order-1">
-                <h2 className="self-stretch text-[#343438] text-[150px] font-normal leading-[150px] tracking-[-3.88px] uppercase max-md:text-[100px] max-md:leading-[100px] max-sm:text-6xl max-sm:leading-[64px]">
+                <h2 className="self-stretch text-[#343438] text-[150px] font-normal leading-[150px] tracking-[-3.88px] uppercase max-md:text-[100px] max-md:leading-[100px] max-sm:text-6xl max-sm:leading-[64px] mr-[200px]">
                   ОПЫТ И ПРОФЕС СИОНАЛ ИЗМ
                 </h2>
 

@@ -31,14 +31,14 @@ const processSteps = [
   },
 ];
 
-export default function Community() {
+export default function     Community() {
   const handleOrderClick = () => {
     console.log("Order button clicked");
   };
 
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto py-[150px]">
+      <div className="max-w-[1920px] mx-auto px-[200px] max-md:pl-5 md:py-[150px] pt-[50px] pb-[100px]">
         {/* === Наши преимущества === */}
         <div className="bg-white">
           <div className="container mx-auto">

@@ -32,7 +32,7 @@ export default function Partners() {
   return (
     <section className="w-full bg-white overflow-hidden">
       <div className="max-w-[1920px] mx-auto relative">
-        <div className="flex relative flex-col justify-end items-start self-stretch px-52 py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
+        <div className="flex relative flex-col justify-end items-center self-stretch px-[100px] py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
           <div className="flex relative items-end self-stretch">
             <div className="flex relative items-end self-stretch flex-[1_0_0]">
               <div className="flex relative flex-col gap-6 justify-end items-start">

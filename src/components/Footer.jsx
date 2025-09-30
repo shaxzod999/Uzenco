@@ -78,7 +78,7 @@ function Footer() {
               {/* Phone Number */}
               <div className="flex flex-1 items-end pt-11 pr-24 pb-0 pl-0 border-t border-r border-solid border-r-zinc-300 border-t-zinc-300 max-sm:pt-8 max-sm:pr-5 max-sm:pb-0 max-sm:pl-0">
                 <div className="flex flex-col items-start">
-                  <div className="text-8xl tracking-tighter text-white uppercase leading-[96px] max-md:text-6xl max-md:leading-[64px] max-sm:text-4xl max-sm:tracking-tighter max-sm:leading-9">
+                  <div className="w-[887px] text-8xl tracking-tighter text-white uppercase leading-[96px] max-md:text-6xl max-md:leading-[64px] max-sm:text-4xl max-sm:tracking-tighter max-sm:leading-9">
                     +7 (967) 000 00 00
                   </div>
                 </div>
@@ -100,16 +100,16 @@ function Footer() {
             </div>
 
             {/* Action Buttons and Working Hours */}
-            <div className="w-full flex flex-col items-start pt-16 max-sm:pt-10">
-              <div className="flex gap-0 items-start w-full">
+            <div className="w-full flex flex-col items-end justify-end pt-16 max-sm:pt-10">
+              <div className="flex gap-0 items-end w-full">
                 {/* Action Buttons */}
                 <div className="flex gap-40 items-end pr-20 w-[987px] max-md:flex-col max-md:gap-20 max-md:items-start max-md:w-full max-sm:gap-10">
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start whitespace-nowrap">
                     <div className="text-base font-bold leading-4 text-white underline uppercase max-sm:text-sm max-sm:leading-4">
                       [ ЗАКАЗАТЬ ЗВОНОК ]
                     </div>
                   </div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start whitespace-nowrap">
                     <div className="text-base font-bold leading-4 text-white underline uppercase max-sm:text-sm max-sm:leading-4">
                       [ НАПИСАТЬ СООБЩЕНИЕ УЧРЕДИТЕЛЮ UZENCO ]
                     </div>
@@ -127,7 +127,7 @@ function Footer() {
                       ПН — ПТ
                     </div>
                   </div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start whitespace-nowrap">
                     <div className="text-base font-bold leading-4 text-white underline uppercase max-sm:text-sm max-sm:leading-4">
                       [ ПРОЛОЖИТЬ МАРШРУТ ]
                     </div>
@@ -141,7 +141,7 @@ function Footer() {
               <div className="flex gap-0 justify-center items-start w-full">
                 {/* Download Presentation */}
                 <div className="flex items-end pr-20 w-[915px] max-md:w-full">
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-start whitespace-nowrap">
                     <div className="text-base font-semibold leading-4 text-white underline uppercase max-sm:text-sm max-sm:leading-4">
                       [ СКАЧАТЬ ПРЕЗЕНТАЦИЮ ]
                     </div>

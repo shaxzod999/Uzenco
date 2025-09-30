@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto max-h-[2426px] self-stretch flex flex-col bg-white px-[100px] max-md:pl-5 md:py-[100px]">
+      <div className="max-w-[1920px] mx-auto max-h-[2426px] self-stretch flex flex-col bg-white px-[200px] max-md:pl-5 md:py-[150px]">
         <header className="self-stretch flex flex-col bg-white max-md:pl-5 max-md:pt-[100px]">
           <nav
             className="self-stretch flex w-full items-stretch text-[15px] text-[#343438] font-semibold uppercase tracking-[0.46px] leading-none max-md:max-w-full"
@@ -111,7 +111,7 @@ export default function About() {
             </div>
           </header>
 
-          <div className="flex gap-[40px_50px] text-lg font-normal leading-[23px] flex-wrap mt-[60px] max-md:max-w-full max-md:mt-10">
+          <div className="flex gap-[40px_50px] text-lg font-normal leading-[23px] mt-[60px] max-md:max-w-full max-md:mt-10">
             <div className="flex min-w-60 items-center gap-2.5 w-[771px] max-md:max-w-full">
               <p className="text-[#343438] self-stretch w-[613px] my-auto max-md:max-w-full">
                 Технологичность и инновации в каждой поставке — наш вклад в
