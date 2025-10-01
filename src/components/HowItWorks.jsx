@@ -39,20 +39,18 @@ export default function HowItWorks() {
     },
   ];
   return (
-    <section className="w-full bg-white overflow-hidden">
+    <section className="w-full bg-[#D9D9DD] overflow-hidden">
       <div className="max-w-[1920px] mx-auto relative">
-        <main className="w-full flex flex-col justify-end items-start self-stretch bg-[#D9D9DD]">
+        <main className="w-full flex flex-col justify-start items-start self-stretch">
           <div className="flex flex-col items-center self-stretch">
-            <header className="w-full flex flex-col items-center self-stretch">
-              <div className="w-full flex justify-center self-stretch pl-[100px] py-[50px] pt-[100px]">
-                <div className="w-full flex items-start flex-1 self-stretch">
-                  <div className="w-full flex flex-col items-start justify-start self-stretch gap-[23.2px]">
-                    <nav className="flex flex-col items-start self-stretch">
-                      <span className="text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase">
-                        НАША КОМАНДА
-                      </span>
-                    </nav>
-                  </div>
+            <header className="max-w-[1920px] w-full flex flex-col items-center self-stretch ">
+              <div className="w-[1520px] py-[100px] flex justify-start">
+                <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+                  <nav className="">
+                    <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
+                      НАША КОМАНДА
+                    </span>
+                  </nav>
                 </div>
               </div>
 

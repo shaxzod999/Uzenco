@@ -16,20 +16,18 @@ export default function CTA() {
   const images = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <div className="">
+    <div className="max-w-[1920px] mx-auto">
       <div className="px-20 text-neutral-700 max-md:pl-5">
         <div className="flex overflow-hidden flex-col justify-center items-center  pb-52 bg-white max-md:py-24 max-md:max-w-full">
-          <div className="flex self-stretch w-full text-base font-semibold tracking-wide leading-none uppercase max-md:max-w-full">
-            <div className="flex flex-1 shrink items-end basis-0 min-w-60 size-full max-md:max-w-full">
-              <div className="gap-6 w-full">
-                <div className="w-full">
-                  <div className="leading-4 text-neutral-700">
-                    Наши партнёры
-                  </div>
-                </div>
-              </div>
+          <div className="w-[1520px] py-[50px] flex justify-start">
+            <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+              <nav className="">
+                <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
+                  География поставок
+                </span>
+              </nav>
             </div>
-          </div>
+          </div>r
           <div className="pt-12 pb-52 max-w-full w-[1521px] max-md:pb-24">
             <div className="flex flex-wrap gap-0 pb-16 w-full max-w-[1521px] max-md:max-w-full">
               <div className="flex grow shrink items-end pt-16 pr-24 h-full text-8xl tracking-tighter border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 leading-[100px] min-w-60 w-[1007px] max-md:max-w-full max-md:text-4xl max-md:leading-10">

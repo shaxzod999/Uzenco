@@ -33,17 +33,13 @@ export default function Partners() {
     <section className="w-full bg-white overflow-hidden">
       <div className="max-w-[1920px] mx-auto relative">
         <div className="flex relative flex-col justify-end items-center self-stretch px-[100px] py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
-          <div className="flex relative items-end self-stretch">
-            <div className="flex relative items-end self-stretch flex-[1_0_0]">
-              <div className="flex relative flex-col gap-6 justify-end items-start">
-                <div className="flex relative flex-col items-start self-stretch">
-                  <div className="relative text-base font-semibold tracking-wide leading-4 uppercase text-neutral-700 max-sm:text-sm">
-                    <div className="text-base font-bold text-neutral-700 max-sm:text-sm">
-                      Сертификаты и доверие
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="w-[1520px] py-[30px] flex justify-start">
+            <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+              <nav className="">
+                <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
+                  Сертификаты и доверие
+                </span>
+              </nav>
             </div>
           </div>
 

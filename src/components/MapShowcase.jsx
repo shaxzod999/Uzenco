@@ -2,9 +2,9 @@ import React from "react";
 
 export default function MapShowcase() {
   return (
-    <section className="w-full bg-white overflow-hidden">
+    <section className="w-full bg-[#D9D9DD] overflow-hidden">
       <div className="max-w-[1920px] mx-auto max-h-[1249px]">
-        <div className="self-stretch py-36 pr-48 pl-52 bg-zinc-300 text-neutral-700 max-md:px-5 max-md:py-24">
+        <div className="self-stretch py-36 pr-48 pl-52 text-neutral-700 max-md:px-5 max-md:py-24">
           <div className="flex w-full text-base font-semibold tracking-wide leading-none uppercase max-md:max-w-full">
             <div className="flex flex-1 shrink items-end basis-0 min-w-60 size-full max-md:max-w-full">
               <div className="gap-6">

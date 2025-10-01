@@ -13,14 +13,14 @@ function Main() {
   return (
     <div>
       <Hero />
-      <About />
-      <Features />
+       <About />
+      {/*<Features />
       <MapShowcase />
       <Community />
       <HowItWorks />
       <Testimonials />
       <Partners />
-      <CTA />
+      <CTA /> */}
     </div>
   );
 }

@@ -3,20 +3,15 @@ import React from "react";
 export default function Testimonials() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto ">
+      <div className="max-w-[1920px] mx-auto px-[200px] py-[50px] pt-[100px]">
         <div className="flex relative flex-col justify-center items-center self-stretch">
-          <div className="flex relative items-end self-stretch px-[100px] py-[50px] pt-[100px]">
-            <div className="flex relative items-end self-stretch flex-[1_0_0]">
-              <div className="flex relative flex-col gap-6 justify-end items-start">
-                <div className="flex relative flex-col items-start self-stretch">
-                  <div
-                    className="relative text-base font-semibold tracking-wide leading-4 uppercase text-neutral-700"
-                    style={{ color: "#343438" }}
-                  >
-                    География поставок
-                  </div>
-                </div>
-              </div>
+          <div className="w-[1520px] py-[50px] flex justify-start">
+            <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+              <nav className="">
+                <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
+                  География поставок
+                </span>
+              </nav>
             </div>
           </div>
 

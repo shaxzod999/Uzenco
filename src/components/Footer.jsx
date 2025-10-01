@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <section className="w-full bg-white overflow-hidden">
+    <section className="w-full bg-[#343438] overflow-hidden">
       <div className="max-w-[1920px] mx-auto">
-        <footer className="box-border flex flex-col justify-end items-start pt-36 pr-12 pb-10 pl-14 bg-neutral-700 max-md:px-6 max-md:pt-20 max-md:pb-10 max-sm:px-4 max-sm:pt-10 max-sm:pb-5">
+        <footer className="box-border flex flex-col justify-end items-start pt-36 pr-12 pb-10 pl-14 max-md:px-6 max-md:pt-20 max-md:pb-10 max-sm:px-4 max-sm:pt-10 max-sm:pb-5">
           <div className="flex items-end w-full max-md:flex-col max-md:gap-10 max-md:items-start max-sm:gap-8">
             {/* Left Section - Social Media */}
             <div className="flex flex-1 items-end">
