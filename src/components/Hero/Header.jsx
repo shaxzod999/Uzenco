@@ -4,14 +4,43 @@ import logo2 from "../../assets/icons/Vector.png";
 import Button1 from "../../assets/icons/Button1.png";
 import Button from "../../assets/icons/Button.png";
 
-export default function Header() {
+export default function Header({
+  language = "ru",
+  onChangeLanguage,
+  onCtaClick,
+}) {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleLangClick = (lang) => {
+    if (onChangeLanguage) onChangeLanguage(lang);
+  };
 
   return (
     <header className="w-full flex items-center justify-between py-6 px-6 z-20 relative">
       {/* Logo */}
       <div className="flex items-center gap-4">
         <img src={logo} alt="logo" className="h-12 w-auto" />
+      </div>
+
+      <div className="flex items-center gap-4">
+        <button
+          type="button"
+          onClick={() => handleLangClick(language === "ru" ? "uz" : "ru")}
+          className="hidden md:block h-10 px-4 rounded-full border text-sm hover:bg-white/10 transition border-white/60 text-white"
+          aria-label="Change language"
+          title="Change language"
+        >
+          {language?.toUpperCase() === "UZ" ? "UZ" : "RU"}
+        </button>
+
+        {/* CTA button */}
+        <button
+          type="button"
+          onClick={onCtaClick}
+          className="hidden md:block h-10 px-5 rounded-full border border-white/60 text-white text-sm hover:bg-white/10 transition"
+        >
+          ОСТАВИТЬ ЗАЯВКУ
+        </button>
       </div>
 
       {/* Mobile menu toggle (dots icon) */}
