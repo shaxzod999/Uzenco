@@ -13,10 +13,10 @@ function Main() {
   return (
     <div>
       <Hero />
-       <About />
-      {/*<Features />
+      <About />
+      <Features />
       <MapShowcase />
-      <Community />
+      {/*<Community />
       <HowItWorks />
       <Testimonials />
       <Partners />

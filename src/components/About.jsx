@@ -3,8 +3,8 @@ import React from "react";
 export default function About() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto min-h-[1894px] self-stretch flex flex-col bg-white px-[16px] md:px-[200px] md:pl-5 md:py-[150px]">
-        <header className="self-stretch flex flex-col bg-white md:pl-5 md:pl-0 pt-[50px] md:pt-[0]">
+      <div className="max-w-[1920px] mx-auto min-h-[1894px] self-stretch flex items-center justify-center flex-col bg-white px-[16px] md:px-[200px] md:py-[150px]">
+        <header className=" self-stretch flex flex-col bg-white md:pl-5 md:pl-0 pt-[50px] md:pt-[0]">
           <nav
             className="self-stretch flex w-full items-stretch text-[15px] text-[#343438] font-semibold uppercase tracking-[0.46px] leading-none max-md:max-w-full"
             aria-label="Breadcrumb navigation"

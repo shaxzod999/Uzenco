@@ -4,7 +4,24 @@ export default function MapShowcase() {
   return (
     <section className="w-full bg-[#D9D9DD] overflow-hidden">
       <div className="max-w-[1920px] mx-auto max-h-[1249px]">
-        <div className="self-stretch py-36 pr-48 pl-52 text-neutral-700 max-md:px-5 max-md:py-24">
+        <div className="block md:hidden flex flex-col gap-[30px] self-stretch py-[100px] px-[16px] text-neutral-700">
+          <h4>Как мы работаем</h4>
+          <h1>ПОЛНЫЙ КОНТРОЛЬ ПОСТАВОК</h1>
+          <div className="py-[30px]">
+            <div className="py-[20px] border-t border-solid border-t-[#343438] flex flex-col">
+              <div className="pt-[30px] pr-[30px]">
+                Мы предлагаем нашим клиентам удобный и прозрачный сервис: берем
+                на себя закупку, логистику, таможенные процедуры и доставку,
+                полностью контролируем процесс и гарантируем надежное выполнение
+                обязательств.
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div className="hidden md:block self-stretch py-36 pr-48 pl-52 text-neutral-700 max-md:px-5 max-md:py-24">
           <div className="flex w-full text-base font-semibold tracking-wide leading-none uppercase max-md:max-w-full">
             <div className="flex flex-1 shrink items-end basis-0 min-w-60 size-full max-md:max-w-full">
               <div className="gap-6">
