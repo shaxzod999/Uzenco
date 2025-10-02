@@ -17,7 +17,6 @@ export default function Header({
 
   return (
     <header className="w-full flex items-center justify-between py-6 px-6 z-20 relative">
-      {/* Logo */}
       <div className="flex items-center gap-4">
         <img src={logo} alt="logo" className="h-12 w-auto" />
       </div>
@@ -33,7 +32,6 @@ export default function Header({
           {language?.toUpperCase() === "UZ" ? "UZ" : "RU"}
         </button>
 
-        {/* CTA button */}
         <button
           type="button"
           onClick={onCtaClick}
@@ -43,7 +41,6 @@ export default function Header({
         </button>
       </div>
 
-      {/* Mobile menu toggle (dots icon) */}
       <button
         className="md:hidden w-10 h-10 flex items-center justify-center "
         onClick={() => setMenuOpen(true)}
@@ -53,13 +50,11 @@ export default function Header({
         </div>
       </button>
 
-      {/* Slide-in menu */}
       <div
         className={`fixed top-0 right-0 h-full w-full bg-[#343438] transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Top section: logo + close button */}
         <div className="flex justify-between items-center px-12 py-7">
           <img src={logo2} alt="logo" className="h-12 w-auto" />
           <button
@@ -70,7 +65,6 @@ export default function Header({
           </button>
         </div>
 
-        {/* Menu items */}
         <nav className="flex flex-col gap-6 px-10 mt-10 text-white text-lg font-medium">
           <a href="#about" onClick={() => setMenuOpen(false)}>
             О КОМПАНИИ

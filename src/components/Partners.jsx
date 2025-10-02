@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../assets/images/image1.svg";
+import img2 from "../assets/images/image2.svg";
+import img3 from "../assets/images/image3.svg";
 
 export default function Partners() {
   const BellIcon = () => (
@@ -32,7 +35,71 @@ export default function Partners() {
   return (
     <section className="w-full bg-white overflow-hidden">
       <div className="max-w-[1920px] mx-auto relative">
-        <div className="flex relative flex-col justify-end items-center self-stretch px-[100px] py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
+        <div className="w-[100%] py-[100px] px-[16px] flex md:hidden text-[#343438] flex flex-col gap-[30px]">
+          <div className="flex flex-col gap-[50px]">
+            <h4 className="font-sora font-semibold text-[12.4px] leading-[15.4px] tracking-[3%] uppercase">
+              Сертификаты и доверие
+            </h4>
+            <h2 className="font-sora font-semibold text-[40px] leading-[120%] tracking-[-1.88px] uppercase">
+              МЕЖДУНАРОДНЫЕ СТАНДАРТЫ КАЧЕСТВА
+            </h2>
+            <div className="pt-[30px] pb-[10px]">
+              <div className="border-t border-solid border-t-[#343438] pt-[30px] flex flex-col gap-[50px]">
+                <p className="font-sora font-semibold text-[13.4px] leading-[16.94px] tracking-[0px] uppercase">
+                  Мы работаем исключительно в рамках международных стандартов
+                  качества. Каждая партия топлива Uzenco проходит обязательную
+                  сертификацию и сопровождается полным пакетом документов. Такой
+                  подход позволяет нашим клиентам быть уверенными в прозрачности
+                  поставок и надёжности партнёрства.
+                </p>
+                <p className="font-sora font-semibold text-[13.4px] leading-[16.94px] tracking-[0px] uppercase">
+                  Для Uzenco приоритетом является безопасность и доверие
+                  клиентов. Мы применяем систему многоуровневого контроля и
+                  предоставляем официальные сертификаты качества на все виды
+                  топлива. Это подтверждает, что наши поставки соответствуют
+                  международным нормам и экологическим требованиям.
+                </p>
+              </div>
+            </div>
+            <div>
+              <header className="items-stretch flex w-full max-w-full gap-[0.01px] text-[#343438] font-normal pb-[60px]">
+                <div className="flex items-start justify-start pr-[30px] pt-[30px] border-r-[#343438] border-t-[#343438] border-t border-solid border-r">
+                  <div
+                    className="justify-center items-center self-stretch flex w-[32px] h-[32px] bg-[#343438] rounded-[25.3px]"
+                    role="img"
+                    aria-label="Quality fuel icon"
+                  >
+                    <div className="min-w-[14px] self-stretch min-h-[14px] w-[14px] max-w-[14px] max-h-[14px] my-auto">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/cb15d3f09a3b4320b834af2eefdebf28/e8cd881e8e35db0af96f3442ceb22be36e2d9a61?placeholderIfAbsent=true"
+                        className="aspect-[1] object-contain w-full"
+                        alt="Quality fuel supply icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="items-start flex  gap-[158.39px] text-[13px] md:text-lg leading-normal md:leading-[23px] h-full md:w-[363px] pl-[30px] pt-[30px] md:pl-[100px] md:pt-[45px] pb-[0] md:pb-5 border-t-[#343438] border-t border-solid">
+                  <div className="self-stretch w-full h-[140px]">
+                    <p className="text-[#343438] font-sora font-normal text-[13.6px] leading-[130%] tracking-[0px] uppercase">
+                      Сертификаты качества и соблюдение международных стандартов
+                      подтверждают надёжность и безопасность нашей работы.
+                    </p>
+                  </div>
+                </div>
+              </header>
+            </div>
+          </div>
+          <div className="w-[100%] object-contain h-auto">
+            <img className="w-full" src={img1} alt="" />
+          </div>
+          <div className="w-[100%] object-contain h-auto">
+            <img className="w-full" src={img2} alt="" />
+          </div>
+          <div className="w-[100%] object-contain h-auto">
+            <img className="w-full" src={img3} alt="" />
+          </div>
+        </div>
+        <div className="hidden md:flex relative flex-col justify-end items-center self-stretch px-[100px] py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
           <div className="w-[1520px] py-[30px] flex justify-start">
             <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
               <nav className="">

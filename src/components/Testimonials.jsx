@@ -3,9 +3,9 @@ import React from "react";
 export default function Testimonials() {
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto px-[200px] py-[50px] pt-[100px]">
-        <div className="flex relative flex-col justify-center items-center self-stretch">
-          <div className="w-[1520px] py-[50px] flex justify-start">
+      <div className="max-w-[1920px] mx-auto px-[16px] md:px-[200px] py-[50px] pt-[100px]">
+        <div className="flex relative flex-col justify-center items-start md:items-center self-stretch">
+          <div className="hidden md:block w-[1520px] py-[50px] flex justify-start">
             <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
               <nav className="">
                 <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
@@ -14,8 +14,58 @@ export default function Testimonials() {
               </nav>
             </div>
           </div>
-
-          <div className="flex relative flex-col justify-end items-start px-[200px] max-md:pl-5 pb-[100px]">
+          <div className="block md:hidden  text-[#343438] flex flex-col gap-[30px]">
+            <h4 className="font-sora font-semibold text-[12.4px] leading-[15.4px] tracking-[3%] uppercase">
+              География поставок
+            </h4>
+            <h2 className="w-full font-sora font-semibold text-[40px] leading-[120%] tracking-[-1.88px] uppercase">
+              Мы соединяем международ ный опыт и локальные ценности
+            </h2>
+            <div className="py-[30px]">
+              <div className="border-t border-t-[#343438] border-solid pt-[30px] pr-[30px]">
+                <p className="w-[251px] font-sora font-semibold text-[13.4px] leading-[16.94px] uppercase">
+                  Uzenco поставляет топливо из России, Ирана и стран Европы,
+                  выстраивая устойчивые международные цепочки поставок. Мы
+                  гарантируем, что каждая партия проходит строгий контроль
+                  качества и доставляется в Узбекистан в срок. Благодаря широкой
+                  географии партнёров мы обеспечиваем стабильность и доступность
+                  топлива для клиентов по всей стране.
+                </p>
+              </div>
+            </div>
+            <div className=" items-stretch flex w-full max-w-full gap-[0.01px] text-[#343438] font-normal pb-[60px]">
+              <div className="flex flex-col md:items-start items-end justify-between gap-[62px] md:min-w-60  md:w-[1093px] md:pr-[100px] pt-[30px] md:pt-[70px] border-r-[#343438] border-t-[#343438] border-t border-solid border-r max-md:max-w-full max-md:text-[40px] max-md:leading-[45px]">
+                <h1 className="md:min-w-60 md:w-[993px] max-md:text-[40px] leading-normal md:leading-[45px]">
+                  <span className="text-[#343438] text-[13px] md:hidden block font-semibold pr-[30px]">
+                    ШИРОКАЯ СЕТЬ ПОСТАВОК
+                  </span>
+                </h1>
+                <div
+                  className="md:hidden block justify-center items-center self-stretch flex  w-[32px] h-[32px] bg-[#343438] my-auto rounded-[25.3px]"
+                  role="img"
+                  aria-label="Quality fuel icon"
+                >
+                  <div className="w-[14px] h-[14px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/cb15d3f09a3b4320b834af2eefdebf28/e8cd881e8e35db0af96f3442ceb22be36e2d9a61?placeholderIfAbsent=true"
+                      className="aspect-[1] object-contain w-full"
+                      alt="Quality fuel supply icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="items-start flex  md:min-w-60 gap-[158.39px] text-[13px] md:text-lg leading-normal md:leading-[23px] h-full md:w-[363px] pl-[30px] pt-[30px] md:pl-[100px] md:pt-[45px] pb-[0] md:pb-5 border-t-[#343438] border-t border-solid">
+                <div className="self-stretch md:min-w-60 w-auto md:w-[263px] md:my-auto">
+                  <p className="text-[#343438]">
+                    Надёжные партнёры и продуманные маршруты позволяют нам
+                    охватывать ключевые рынки и обеспечивать энергетическую
+                    безопасность Узбекистана.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:flex relative flex-col justify-end items-start px-[200px] max-md:pl-5 pb-[100px]">
             <div className="flex relative gap-0 items-start pb-16">
               <div className="flex relative items-end self-stretch pt-16 pr-24 pb-0 pl-0 border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 max-md:pt-12 max-md:pr-12 max-md:pb-0 max-md:pl-0 max-sm:pt-8 max-sm:pr-5 max-sm:pb-0 max-sm:pl-0 max-sm:border-r-[none]">
                 <div className="flex relative flex-col items-start">
@@ -96,9 +146,9 @@ export default function Testimonials() {
             className="flex relative flex-col gap-2.5 items-start w-[1520px] max-md:w-full"
           />
 
-          <div className="flex relative gap-5 items-center max-md:flex-wrap max-md:gap-4 max-sm:flex-col max-sm:gap-4">
-            <div className=" flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 h-[366px] w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
-              <div className="absolute top-0 left-0 bg-gray-500 backdrop-blur-[10px] h-[366px] w-[366px]" />
+          <div className="flex relative gap-[10px] md:gap-5 items-start md:items-center md:flex-nowrap flex-wrap">
+            <div className=" flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 w-[366px] min-h-[366px] md:h-[366px] md:w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
+              <div className="absolute top-0 left-0 bg-[#858591] backdrop-blur-[10px] w-full h-full md:h-[366px] md:w-[366px]" />
 
               <div className="flex relative justify-between items-start self-stretch z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
@@ -115,7 +165,7 @@ export default function Testimonials() {
 
               <div className="flex relative flex-col items-start self-stretch pt-9 z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
-                  <div className="relative self-stretch text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
+                  <div className="relative self-stretch text-[13px] md:text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
                     Надёжный источник топлива с гибкой логистикой и
                     долгосрочными партнёрскими отношениями.
                   </div>
@@ -148,14 +198,13 @@ export default function Testimonials() {
                 </div>
               </div>
             </div>
+            <div className=" flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 w-[366px] min-h-[366px] md:h-[366px] md:w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
+              <div className="absolute top-0 left-0 bg-[#858591] backdrop-blur-[10px] w-full h-full md:h-[366px] md:w-[366px]" />
 
-            <div className="flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 h-[366px] w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
-              <div className="absolute top-0 left-0 bg-gray-500 backdrop-blur-[10px] h-[366px] w-[366px]" />
-
-              <div className=" flex relative justify-between items-start self-stretch z-[1]">
+              <div className="flex relative justify-between items-start self-stretch z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
                   <div className="relative text-base font-semibold tracking-tight leading-5 text-white uppercase max-sm:text-sm max-sm:leading-4">
-                    СТРАТЕГИЧЕСКИЕ МАРШРУТЫ <br /> ПОСТАВОК
+                    ПОСТАВКИ ИЗ РОССИИ
                   </div>
                 </div>
                 <div className="flex relative flex-col items-start self-stretch">
@@ -167,7 +216,7 @@ export default function Testimonials() {
 
               <div className="flex relative flex-col items-start self-stretch pt-9 z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
-                  <div className="relative self-stretch text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
+                  <div className="relative self-stretch text-[13px] md:text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
                     Мы используем проверенные международные транспортные
                     коридоры, что позволяет минимизировать риски и гарантировать
                     бесперебойные поставки топлива. Благодаря этому клиенты
@@ -214,14 +263,13 @@ export default function Testimonials() {
                 </div>
               </div>
             </div>
-
-            <div className="flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 h-[366px] w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
-              <div className="absolute top-0 left-0 bg-gray-500 backdrop-blur-[10px] h-[366px] w-[366px]" />
+            <div className=" flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 min-h-[366px] md:h-[366px] md:w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
+              <div className="absolute top-0 left-0 bg-[#858591] backdrop-blur-[10px] w-full h-full md:h-[366px] md:w-[366px]" />
 
               <div className="flex relative justify-between items-start self-stretch z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
                   <div className="relative text-base font-semibold tracking-tight leading-5 text-white uppercase max-sm:text-sm max-sm:leading-4">
-                    ШИРОКОЕ ПРИСУТСТВИЕ В <br /> РЕГИОНАХ
+                    ПОСТАВКИ ИЗ РОССИИ
                   </div>
                 </div>
                 <div className="flex relative flex-col items-start self-stretch">
@@ -233,7 +281,7 @@ export default function Testimonials() {
 
               <div className="flex relative flex-col items-start self-stretch pt-9 z-[1]">
                 <div className="flex relative flex-col items-start self-stretch">
-                  <div className="relative self-stretch text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
+                  <div className="relative self-stretch text-[13px] md:text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
                     Широкая география снабжения позволяет нам охватывать все
                     ключевые регионы Узбекистана. Это обеспечивает равномерное
                     распределение топлива и доступность для бизнеса любого
@@ -304,6 +352,73 @@ export default function Testimonials() {
                 </div>
               </div>
             </div>
+            <div className=" flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 min-h-[366px] md:h-[366px] md:w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
+              <div className="absolute top-0 left-0 bg-[#858591] backdrop-blur-[10px] w-full h-full md:h-[366px] md:w-[366px]" />
+
+              <div className="flex relative justify-between items-start self-stretch z-[1]">
+                <div className="flex relative flex-col items-start self-stretch">
+                  <div className="relative text-base font-semibold tracking-tight leading-5 text-white uppercase max-sm:text-sm max-sm:leading-4">
+                    ПОСТАВКИ ИЗ РОССИИ
+                  </div>
+                </div>
+                <div className="flex relative flex-col items-start self-stretch">
+                  <div className="relative text-base font-semibold tracking-tight leading-5 uppercase text-zinc-300 max-sm:text-sm max-sm:leading-4">
+                    [ 04 ]
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex relative flex-col items-start self-stretch pt-9 z-[1]">
+                <div className="flex relative flex-col items-start self-stretch">
+                  <div className="relative self-stretch text-[13px] md:text-sm font-medium leading-4 uppercase text-zinc-300 max-sm:text-xs max-sm:leading-4">
+                    Мы выстраиваем сотрудничество с ведущими компаниями в сфере
+                    энергетики и логистики. Это открывает доступ к качественным
+                    нефтепродуктам разных категорий и подтверждает статус Uzenco
+                    как надёжного и прозрачного поставщика.
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex relative flex-col justify-end items-start self-stretch flex-[1_0_0] min-h-[51px] z-[1]">
+                <div className="flex relative items-end self-stretch">
+                  <div className="flex relative justify-center items-center rounded-3xl bg-neutral-700 h-[51px] w-[51px]">
+                    <div className="flex relative flex-col items-start max-h-[22px] max-w-[22px] min-h-[22px] min-w-[22px]">
+                      <div className="flex relative justify-center items-center h-[22px] w-[22px]">
+                        <div className="flex absolute top-0 left-0 shrink-0 justify-center items-center h-[22px] w-[22px]">
+                          <svg
+                            width="23"
+                            height="23"
+                            viewBox="0 0 23 23"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="w-[22px] h-[22px]"
+                          >
+                            <g clipPath="url(#clip0_577_418)">
+                              <path
+                                d="M11.125 0.384766L17.489 6.74873C21.0037 10.2634 21.0037 15.962 17.489 19.4767C13.9742 22.9914 8.27576 22.9914 4.76104 19.4767C1.24632 15.962 1.24632 10.2634 4.76104 6.74873L11.125 0.384766ZM11.125 3.2132L6.17525 8.16295C3.44158 10.8967 3.44158 15.3288 6.17525 18.0625C7.54314 19.4304 9.3363 20.1138 11.1292 20.1127L11.125 3.2132Z"
+                                fill="white"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_577_418">
+                                <rect
+                                  width="22"
+                                  height="22"
+                                  fill="white"
+                                  transform="translate(0.125 0.384766)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 
 
             <div className="flex relative flex-col justify-between items-start px-7 py-7 backdrop-blur-[12.5px] bg-neutral-800 bg-opacity-0 h-[366px] w-[366px] max-md:w-[calc(50%_-_7.5px)] max-sm:w-full">
               <div className="absolute top-0 left-0 bg-gray-500 backdrop-blur-[10px] h-[366px] w-[366px]" />
@@ -369,7 +484,7 @@ export default function Testimonials() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

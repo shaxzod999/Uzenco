@@ -16,11 +16,11 @@ function Main() {
       <About />
       <Features />
       <MapShowcase />
-      {/*<Community />
+      <Community />
       <HowItWorks />
       <Testimonials />
       <Partners />
-      <CTA /> */}
+      <CTA />
     </div>
   );
 }

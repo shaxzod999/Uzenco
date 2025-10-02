@@ -3,21 +3,59 @@ import React from "react";
 export default function MapShowcase() {
   return (
     <section className="w-full bg-[#D9D9DD] overflow-hidden">
-      <div className="max-w-[1920px] mx-auto max-h-[1249px]">
-        <div className="block md:hidden flex flex-col gap-[30px] self-stretch py-[100px] px-[16px] text-neutral-700">
-          <h4>Как мы работаем</h4>
-          <h1>ПОЛНЫЙ КОНТРОЛЬ ПОСТАВОК</h1>
+      <div className="min-h-[1032px] max-w-[1920px] mx-auto">
+        <div className="block md:hidden flex flex-col gap-[30px] self-stretch py-[100px] px-[16px] text-neutral-700 text-[#343438]">
+          <h4 className="font-sora font-semibold text-[12.4px] leading-[15.4px] tracking-[3%] uppercase align-middle">
+            Как мы работаем
+          </h4>
+          <h1 className="font-sora font-semibold text-[40px] leading-[120%] tracking-[-1.88px] uppercase align-middle">
+            ПОЛНЫЙ КОНТРОЛЬ ПОСТАВОК
+          </h1>
           <div className="py-[30px]">
-            <div className="py-[20px] border-t border-solid border-t-[#343438] flex flex-col">
+            <div className="h-full py-[30px] border-t border-solid border-t-[#343438] flex flex-col gap-[20px]">
               <div className="pt-[30px] pr-[30px]">
                 Мы предлагаем нашим клиентам удобный и прозрачный сервис: берем
                 на себя закупку, логистику, таможенные процедуры и доставку,
                 полностью контролируем процесс и гарантируем надежное выполнение
                 обязательств.
               </div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div className="self-stretch pt-[30px] pb-[20px] pr-[30px] flex flex-col gap-[20px]">
+                <div className="text-[#858591] font-montserrat font-medium text-[60px] leading-[80px] tracking-[-3.68px] align-middle">
+                  01
+                </div>
+                <div className="font-sora font-semibold text-[16.4px] leading-[16.94px] tracking-[0] align-middle uppercase">
+                  Надежные поставки топлива
+                </div>
+                <div className="font-sora font-normal text-[13.6px] leading-[130%] tracking-[0]">
+                  Мы обеспечиваем контроль на всех этапах — от закупки и
+                  транспортировки до таможенного оформления и доставки,
+                  гарантируя стабильность и доверие.
+                </div>
+              </div>
+              <div className="self-stretch pt-[30px] pr-[30px] flex flex-col gap-[20px] border-t border-solid border-t-[#343438]">
+                <div className="text-[#858591] font-montserrat font-medium text-[60px] leading-[80px] tracking-[-3.68px] align-middle">
+                  02
+                </div>
+                <div className="font-sora font-semibold text-[16.4px] leading-[16.94px] tracking-[0] align-middle uppercase">
+                  Прозрачные процессы и сервис
+                </div>
+                <div className="font-sora font-normal text-[13.6px] leading-[130%] tracking-[0]">
+                  Каждый шаг открыт для клиента: мы демонстрируем честность и
+                  обеспечиваем полную ясность сотрудничества.
+                </div>
+              </div>
+              <div className="self-stretch pt-[30px] pr-[30px] flex flex-col gap-[20px] border-t border-solid border-t-[#343438]">
+                <div className="text-[#858591] font-montserrat font-medium text-[60px] leading-[80px] tracking-[-3.68px] align-middle">
+                  03
+                </div>
+                <div className="font-sora font-semibold text-[16.4px] leading-[16.94px] tracking-[0] align-middle uppercase">
+                  Гарантия качества и стандартов
+                </div>
+                <div className="font-sora font-normal text-[13.6px] leading-[130%] tracking-[0]">
+                  Вся продукция Uzenco соответствует международным нормам и
+                  подтверждается сертификатами качества.
+                </div>
+              </div>
             </div>
           </div>
         </div>

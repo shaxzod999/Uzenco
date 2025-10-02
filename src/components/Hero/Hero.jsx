@@ -5,7 +5,6 @@ export default function Hero() {
   const [language, setLanguage] = React.useState("ru");
 
   const handleCtaClick = () => {
-    // eslint-disable-next-line no-alert
     alert(language === "ru" ? "Оставить заявку" : "Ariza qoldirish");
   };
 
