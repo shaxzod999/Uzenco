@@ -28,7 +28,7 @@ export default function About() {
         <section className="w-full max-w-full pt-[50px] pb-0 md:pb-[100px]">
           <header className="items-stretch flex w-full max-w-full gap-[0.01px] text-[#343438] font-normal pb-[60px]">
             <div className="flex flex-col md:items-start items-end justify-between gap-[62px] md:min-w-60  md:w-[1093px] md:pr-[100px] pt-[30px] md:pt-[70px] border-r-[#343438] border-t-[#343438] border-t border-solid border-r max-md:max-w-full max-md:text-[40px] max-md:leading-[45px]">
-              <h1 className="md:min-w-60 md:w-[993px] max-md:text-[40px] leading-normal md:leading-[45px]">
+              <h1 className="md:min-w-60 md:w-auto max-md:text-[40px] leading-normal md:leading-[45px]">
                 <span className="text-[#343438] hidden md:block leading-[96px] max-md:max-w-full max-md:text-[40px] max-md:leading-[45px] text-8xl uppercase tracking-[-3.88px] leading-[96px]">
                   ЭНЕРГИЯ, КОТОРАЯ ДВИЖЕТ
                 </span>
@@ -51,7 +51,7 @@ export default function About() {
               </div>
             </div>
             <div className="items-start flex  md:min-w-60 gap-[158.39px] text-[13px] md:text-lg leading-normal md:leading-[23px] h-full md:w-[363px] pl-[30px] pt-[30px] md:pl-[100px] md:pt-[45px] pb-[0] md:pb-5 border-t-[#343438] border-t border-solid">
-              <div className="self-stretch md:min-w-60 w-auto md:w-[263px] md:my-auto">
+              <div className="self-stretch md:min-w-auto w-auto md:w-[263px] md:my-auto">
                 <p className="text-[#343438]">
                   Uzenco объединяет международный опыт и локальные ценности,
                   обеспечивая страну топливом, соответствующим мировым
@@ -100,7 +100,7 @@ export default function About() {
               loading="lazy"
             />
           </div>
-          <div className="flex flex-col-reverse md:flex-row gap-5 pt-5 items-start md:pb-[100px] md:px-5 max-md:max-w-full">
+          <div className="flex flex-col-reverse md:flex-row gap-5 pt-5 items-start md:pb-[100px] md:px-0 max-md:max-w-full">
             <img
               src="https://api.builder.io/api/v1/image/assets/cb15d3f09a3b4320b834af2eefdebf28/d672f60c4f04c8af87fa6cbd094bc256dd238fe0?placeholderIfAbsent=true"
               className="aspect-[1.08] object-contain md:w-[714px] min-w-60 max-md:max-w-full"

@@ -145,11 +145,11 @@ export default function Community() {
               </header>
 
               <div className="flex gap-[0.01px] pt-[50px] pb-[60px] max-md:flex-col max-md:max-w-full">
-                <div className="flex text-8xl text-[#343438] font-normal uppercase tracking-[-3.88px] leading-[110px] w-[990px] pr-[37px] pt-[70px] border-t border-r border-[#343438] max-md:w-full max-md:text-[40px] max-md:leading-[51px]">
+                <div className="flex text-[90px] text-[#343438] font-normal uppercase tracking-[-3.88px] leading-[110px] w-[990px] pr-[37px] pt-[70px] border-t border-r border-[#343438] max-md:w-full max-md:text-[40px] max-md:leading-[51px]">
                   <h2>Мы соединяем международный опыт и локальные ценности</h2>
                 </div>
 
-                <aside className="flex flex-col w-[530px] gap-[158.39px] pl-[100px] pt-[70px] pb-5 border-t border-[#343438] max-md:w-full max-md:gap-10">
+                <aside className="flex flex-col w-auto gap-[158.39px] pl-[100px] pt-[70px] pb-5 border-t border-[#343438] max-md:gap-10">
                   <button
                     onClick={handleOrderClick}
                     className="flex justify-center items-center border border-[#343438] w-[155px] h-[155px] rounded-full hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-[#343438] focus:ring-offset-2"
@@ -162,7 +162,7 @@ export default function Community() {
                     />
                   </button>
 
-                  <p className="w-[293px] text-[15px] text-[#343438] font-semibold uppercase leading-5">
+                  <p className="w-auto text-[15px] text-[#343438] font-semibold uppercase leading-5">
                     Команда Uzenco — это профессионалы с опытом в сфере
                     логистики, энергетики и международных поставок. Мы
                     объединяем знания и практику, чтобы гарантировать клиентам
@@ -196,7 +196,7 @@ export default function Community() {
                     </h2>
                   </header>
 
-                  <div className="w-[340px] h-2.5 bg-[#343438] md:w-[373px]" />
+                  <div className="h-2.5 bg-[#343438] xl:w-[330px] w-[373px]" />
 
                   <div className="flex flex-col gap-5 px-10">
                     <h3 className="w-[228px] text-[#343438] text-[22px] font-semibold leading-[30.8px] uppercase">

@@ -44,12 +44,12 @@ export default function HowItWorks() {
   ];
   return (
     <section className="w-full bg-[#D9D9DD] overflow-hidden">
-      <div className="max-w-[1920px] mx-auto relative">
+      <div className="max-w-[1280px] mx-auto relative">
         <main className="w-full flex flex-col justify-start items-start self-stretch">
           <div className="flex flex-col items-center self-stretch py-[100px] md:py-0 px-[16px] md:px-0">
-            <header className="max-w-[1920px] w-full flex flex-col ga-[30px] md:gap-0 items-center self-stretch ">
-              <div className="w-full md:w-[1520px] md:py-[100px] flex justify-start">
-                <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+            <header className="max-w-[1280px] w-full flex flex-col ga-[30px] md:gap-0 items-center self-stretch ">
+              <div className="w-full md:max-w-[1280px] md:py-[100px] flex justify-start">
+                <div className="max-w-[1280px] w-full flex justify-start  items-start gap-[23.2px]">
                   <nav className="">
                     <span className="w-full text-[#343438] text-[12px] md:text-[15.4px] font-semibold leading-[15.4px] tracking-normal md:tracking-[0.462px] uppercase text-center">
                       НАША КОМАНДА
@@ -58,17 +58,17 @@ export default function HowItWorks() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-[0.01px] flex-col md:flex-row max-sm:gap-5 px-0 md:px-[200px]">
-                <div className="flex md:w-[757px] items-end self-stretch pl-0 pr-[100px] md:pt-[70px] pb-0 md:border-r-[#343438] md:border-t-[#343438] md:border-t md:border-solid md:border-r max-md:w-auto max-md:pl-0 max-md:pr-[50px] max-md:pt-[50px] max-md:pb-0 max-sm:w-full max-sm:pt-[30px] max-sm:pb-0 max-sm:px-0 max-sm:border-r-[none]">
+              <div className="flex items-start gap-[0.01px] flex-col md:flex-row max-sm:gap-5 px-0 px-4 md:px-10 lg:px-20 pb-[50px]">
+                <div className="flex md:flex-1 items-end self-stretch pl-0 pr-6 md:pr-10 lg:pr-20 md:pt-[70px] pb-0 md:border-r-[#343438] md:border-t-[#343438] md:border-t md:border-solid md:border-r max-md:w-auto max-md:pl-0 max-md:pr-[50px] max-md:pt-[50px] max-md:pb-0 max-sm:w-full max-sm:pt-[30px] max-sm:pb-0 max-sm:px-0 max-sm:border-r-[none]">
                   <div className="flex flex-col items-start">
-                    <h1 className="md:w-[605px] text-[#343438] text-[40px] md:text-8xl font-normal leading-[100px] md:tracking-[-2px] max-md:text-7xl max-md:leading-[76px] max-md:w-auto max-sm:text-5xl max-sm:leading-[52px] max-sm:w-full">
+                    <h1 className="md:w-auto text-[#343438] text-[40px] md:text-8xl font-normal leading-[100px] md:tracking-[-2px] max-md:text-7xl max-md:leading-[76px] max-md:w-auto max-sm:text-5xl max-sm:leading-[52px] max-sm:w-full">
                       ЛЮДИ, КОТОРЫЕ СОЗДАЮТ ЭНЕРГИЮ
                     </h1>
                   </div>
                 </div>
 
-                <div className="flex md:w-[754px] h-auto my-[30px] md:my-0 items-start gap-[50x] md:gap-0 flex-col md:flex-row justify-between self-stretch md:pl-[100px] pr-0 pt-[70px]  border-t-[#343438] border-t border-solid max-sm:pt-[30px] max-sm:px-0 ">
-                  <div className="w-full flex items-start justify-between gap-0 md:gap-[309px] max-md:gap-[50px] max-sm:gap-[30px]">
+                <div className="flex md:w-[754px] h-auto my-[30px] md:my-0 items-start gap-[50x] md:gap-0 flex-col md:flex-row justify-between self-stretch md:pl-[100px] pr-0 pt-[70px] pb-5 border-t-[#343438] border-t border-solid max-sm:pt-[30px] max-sm:px-0 ">
+                  <div className="w-full flex items-start justify-between gap-0 gap-6 md:gap-10 lg:gap-20 max-md:gap-[50px] max-sm:gap-[30px]">
                     <p className=" md:w-[293px] text-[#343438] text-[13px] md:text-[15.4px] font-semibold leading-[19.9px] uppercase ">
                       Команда Uzenco — это профессионалы с опытом в сфере
                       логистики, энергетики и международных поставок. Мы
@@ -99,9 +99,7 @@ export default function HowItWorks() {
                           />
                         </svg>
                       </div>
-                      {hasNotification && (
-                        <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-pulse" />
-                      )}
+                      
                     </button>
                   </div>
                   <div className="block md:hidden flex-col flex gap-[50px] mt-[50px]">
@@ -164,8 +162,8 @@ export default function HowItWorks() {
                   <article
                     key={feature.number}
                     className={`
-                  flex items-center h-[540px] pl-[50px] pr-[100px] pt-[70px] pb-0 border-t-[#343438] border-t border-solid
-                  w-[378px] 
+                  flex items-center h-[540px] pl-[50px] pr-6 md:pr-10 lg:pr-20pr-[100px] pt-[70px] pb-0 border-t-[#343438] border-t border-solid
+                  w-full md:w-1/3
                   ${
                     index === 0
                       ? "border-x-[#343438] border-r border-l max-md:border-l-[none] max-sm:border-l-[none]"
@@ -191,13 +189,13 @@ export default function HowItWorks() {
               </div>
             </section>
 
-            <section className="w-full flex items-start gap-[180px] self-stretch max-md:flex-col max-md:h-auto max-md:gap-[50px]  md:py-[100px] md:pt-[50px]">
+            <section className="w-full flex items-start gap-10 md:gap-[50px] lg:gap-28 self-stretch max-md:flex-col max-md:h-auto  md:py-[100px] pt-[50px]">
               <div className="hidden md:block flex items-start  self-stretch relative max-md:order-2 left-0">
                 <div className="bottom-[-50.41px] bg-white max-md:hidden" />
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/bc4969cf54db4a3ac0bb92b6a1a78e22e10391ac?width=1566"
                   alt="Professional team member representing Uzenco's expertise in energy logistics"
-                  className="w-[783px] h-auto object-cover aspect-[783/1109] relative max-md:w-full max-md:h-auto max-md:static max-md:right-auto max-md:bottom-auto"
+                  className="w-full h-full object-cover aspect-[783/1109] relative max-md:w-full max-md:h-auto max-md:static max-md:right-auto max-md:bottom-auto"
                 />
                 <span className="absolute left-[10%] text-[#343438] text-[15.4px] font-semibold leading-[15.4px] uppercase top-[75.41px] max-md:static max-md:mb-5 max-md:top-auto">
                   НАША КОМАНДА
@@ -211,7 +209,7 @@ export default function HowItWorks() {
                 />
               </div>
               <div className="flex flex-col items-start gap-[30px] md:gap-[50px] flex-1 max-md:order-1">
-                <h2 className="hidden md:block self-stretch text-[#343438] text-[150px] font-semibold md:font-normal md:tracking-[3.88px] uppercase  md:text-[100px] md:leading-[100px] text-[40px] md:text-[150px] md:mr-[200px]">
+                <h2 className="hidden md:block self-stretch text-[#343438] text-[150px] font-semibold md:font-normal md:tracking-[3.88px] uppercase  md:text-[100px] md:leading-[100px] text-[40px] md:text-[150px]">
                   ОПЫТ И ПРОФЕС СИОНАЛ ИЗМ
                 </h2>
 

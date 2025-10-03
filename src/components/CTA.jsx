@@ -23,8 +23,8 @@ export default function CTA() {
   const images = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <div className="max-w-[1920px] mx-auto">
-      <div className="md:px-20 text-neutral-700 md:max-md:pl-5">
+    <div className="max-w-[1280px] w-full mx-auto">
+      <div className="md:px-0 text-neutral-700 md:max-md:pl-5">
         <div className="flex flex-col md:hidden py-[100px] px-[16px] gap-[50px]">
           <div className="flex flex-col gap-[50px]">
             <h4 className="font-sora font-semibold text-[12.4px] leading-[15.4px] tracking-[3%] uppercase">
@@ -124,9 +124,9 @@ export default function CTA() {
             </div>
           </div>
         </div>
-        <div className="hidden md:flex overflow-hidden flex-col justify-center items-center  pb-52 bg-white max-md:py-24 max-md:max-w-full">
-          <div className="w-[1520px] py-[50px] flex justify-start">
-            <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+        <div className="hidden md:flex overflow-hidden flex-col justify-center items-center pb-52 bg-white max-md:py-24 max-md:max-w-full">
+          <div className="max-w-[1280px] w-full mx-auto py-[50px] flex justify-start">
+            <div className="max-w-[1280px] w-full mx-auto w-full flex justify-start  items-start gap-[23.2px]">
               <nav className="">
                 <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
                   География поставок
@@ -134,17 +134,17 @@ export default function CTA() {
               </nav>
             </div>
           </div>
-          <div className="pt-12 pb-52 max-w-full w-[1521px] max-md:pb-24">
-            <div className="flex flex-wrap gap-0 pb-16 w-full max-w-[1521px] max-md:max-w-full">
-              <div className="flex grow shrink items-end pt-16 pr-24 h-full text-8xl tracking-tighter border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 leading-[100px] min-w-60 w-[1007px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
-                <div className="min-w-60 w-[993px] max-md:text-4xl max-md:leading-10">
-                  <div className="text-neutral-700 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+          <div className="pt-12 pb-52 max-w-[1280px] w-full mx-auto max-md:pb-24">
+            <div className="flex flex-wrap gap-0 pb-16 max-w-[1280px] w-full mx-auto">
+              <div className="flex grow shrink items-end pt-16 pr-24 h-full text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 leading-[100px] min-w-60 w-full lg:w-2/3 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                <div className="w-full">
+                  <div className="text-neutral-700 max-md:max-w-full max-md:leading-10">
                     МЕЖДУНАРОДНЫЕИ ЛОКАЛЬНЫЕСОЮЗЫ
                   </div>
                 </div>
               </div>
-              <div className="flex grow shrink gap-40 items-center pt-11 pb-5 pl-24 h-full text-base font-semibold leading-5 uppercase border-t border-solid border-t-neutral-700 min-w-60 w-[342px] max-md:max-w-full">
-                <div className="self-stretch my-auto min-w-60 w-[328px]">
+              <div className="flex grow shrink gap-40 items-center pt-11 pb-5 pl-24 h-full text-base font-semibold leading-5 uppercase border-t border-solid border-t-neutral-700 min-w-60 w-full lg:w-1/3 max-md:max-w-full">
+                <div className="self-stretch my-auto w-auto">
                   <div className="font-semibold text-neutral-700">
                     Мы сотрудничаем с ведущими поставщиками топлива из России,
                     Ирана и стран Европы. Каждое партнёрство строится на
@@ -156,8 +156,8 @@ export default function CTA() {
               </div>
             </div>
             <div className="flex gap-0 w-full text-lg leading-5 uppercase max-md:max-w-full">
-              <div className="flex gap-10 items-center h-full min-w-60 w-[900px]">
-                <div className="self-stretch my-auto min-w-60 w-[641px]">
+              <div className="flex gap-10 items-center h-full w-full lg:w-2/3">
+                <div className="self-stretch my-auto w-full lg:w-1/2">
                   <div className="text-neutral-700 max-md:max-w-full">
                     Мы объединяем опыт мировых компаний и локальные ценности,
                     чтобы создавать надёжные цепочки поставок и укреплять
@@ -188,7 +188,7 @@ export default function CTA() {
                     <img
                       src={src}
                       alt={`Partner ${index + 1}`}
-                      className="object-contain max-w-[385px] max-h-[385px] ml-3"
+                      className="object-contain max-w-[285px] max-h-[285px] ml-3"
                     />
                   </div>
                 </SwiperSlide>

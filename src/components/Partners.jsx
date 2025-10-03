@@ -34,7 +34,7 @@ export default function Partners() {
 
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="max-w-[1920px] mx-auto relative">
+      <div className="max-w-[1280px] w-full mx-auto relative">
         <div className="w-[100%] py-[100px] px-[16px] flex md:hidden text-[#343438] flex flex-col gap-[30px]">
           <div className="flex flex-col gap-[50px]">
             <h4 className="font-sora font-semibold text-[12.4px] leading-[15.4px] tracking-[3%] uppercase">
@@ -99,20 +99,20 @@ export default function Partners() {
             <img className="w-full" src={img3} alt="" />
           </div>
         </div>
-        <div className="hidden md:flex relative flex-col justify-end items-center self-stretch px-[100px] py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
-          <div className="w-[1520px] py-[30px] flex justify-start">
-            <div className="max-w-[1920px] w-full flex justify-start  items-start gap-[23.2px]">
+        <div className="hidden md:flex relative flex-col justify-end items-center self-stretch px-4 sm:px-6 lg:px-0 py-36 bg-white max-md:px-12 max-md:py-24 max-sm:px-5 max-sm:py-12">
+          <div className="max-w-[1280px] w-full py-[30px] flex justify-start">
+            <div className="max-w-[1280px] w-full flex justify-start  items-start gap-[23.2px]">
               <nav className="">
-                <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-center">
+                <span className="w-full text-[#343438] text-[15.4px] font-semibold leading-[15.4px] tracking-[0.462px] uppercase text-start">
                   Сертификаты и доверие
                 </span>
               </nav>
             </div>
           </div>
 
-          <div className="flex relative flex-col justify-end items-start px-0 pt-12 pb-16">
+          <div className="max-w-[1280px] flex relative flex-col justify-end items-start px-0 pt-12 pb-16">
             <div className="flex relative gap-0 items-start pb-16 max-md:flex-col max-md:gap-12">
-              <div className="flex relative flex-col justify-between items-start self-stretch pt-16 pr-24 pb-0 pl-0 border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 w-[638px] max-md:pt-12 max-md:pr-12 max-md:pb-0 max-md:pl-0 max-md:w-full max-md:border-r-[none] max-sm:pt-8 max-sm:pr-5 max-sm:pb-0 max-sm:pl-0">
+              <div className="flex relative flex-col justify-between items-start self-stretch pt-16 pr-24 pb-0 pl-0 border-t border-r border-solid border-r-neutral-700 border-t-neutral-700 w-full lg:w-2/3 max-md:pt-12 max-md:pr-12 max-md:pb-0 max-md:pl-0 max-md:w-full max-md:border-r-[none] max-sm:pt-8 max-sm:pr-5 max-sm:pb-0 max-sm:pl-0">
                 <div className="flex relative flex-col items-start">
                   <div className="relative text-8xl tracking-tighter leading-[100px] text-neutral-700 w-[578px] max-md:w-full max-md:text-7xl max-md:leading-[76px] max-sm:text-5xl max-sm:leading-[52px]">
                     <span className="text-8xl text-neutral-700 max-sm:text-5xl">
@@ -151,8 +151,8 @@ export default function Partners() {
                 </div>
               </div>
 
-              <div className="flex relative flex-col gap-36 justify-end items-start self-stretch pt-16 pr-0 pb-5 pl-24 border-t border-solid border-t-neutral-700 w-[882px] max-md:gap-24 max-md:px-0 max-md:pt-12 max-md:pb-5 max-md:w-full max-sm:gap-12 max-sm:px-0 max-sm:pt-8 max-sm:pb-5">
-                <div className="flex relative gap-72 items-start self-stretch h-[51px] max-md:flex-col max-md:gap-8 max-md:h-auto max-sm:gap-5">
+              <div className="flex relative flex-col gap-36 justify-end items-start self-stretch pt-16 pr-0 pb-5 pl-24 border-t border-solid border-t-neutral-700 w-full lg:w-1/2 max-md:gap-24 max-md:px-0 max-md:pt-12 max-md:pb-5 max-md:w-full max-sm:gap-12 max-sm:px-0 max-sm:pt-8 max-sm:pb-5">
+                <div className="flex relative gap-10 items-start self-stretch h-[51px] max-md:flex-col max-md:gap-8 max-md:h-auto max-sm:gap-5">
                   <div className="flex relative flex-col items-start">
                     <div className="relative text-lg leading-5 uppercase text-neutral-700 w-[453px] max-md:w-full max-sm:w-full max-sm:text-base">
                       <div className="text-lg text-neutral-700 max-sm:text-base">
@@ -174,46 +174,44 @@ export default function Partners() {
                   </div>
                 </div>
 
-                <div className="flex relative flex-col gap-24 items-start max-md:gap-12 max-sm:gap-8">
-                  <div className="relative h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
-                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
+                <div className="w-full flex relative flex-col gap-24 items-start max-md:gap-12 max-sm:gap-8">
+                  <div className="relative h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
+                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/b5745a8932c35b2db1425b46ef3123fcbad52571?width=1564"
                       alt=""
-                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:size-full"
+                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-full w-full max-w-[600px] mx-auto"
                     />
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/8473fa28c476228d061a3035882dfeee7f262152?width=875"
                       alt="Certificate A4 - 20"
-                      className="absolute shrink-0 h-[619px] left-[173px] top-[81px] w-[437px] max-md:h-[475px] max-md:left-[133px] max-md:top-[62px] max-md:w-[335px] max-sm:h-[316px] max-sm:left-[89px] max-sm:top-[42px] max-sm:w-[223px]"
+                      className="absolute shrink-0 h-auto left-[53px] top-[40px] w-auto"
                     />
                   </div>
-
-                  <div className="relative h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
-                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
+                  <div className="relative h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
+                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
                     <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/9218593b6664f13f7d524e026b58ca8fc3ff11b5?width=1564"
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/b5745a8932c35b2db1425b46ef3123fcbad52571?width=1564"
                       alt=""
-                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:size-full"
+                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-full w-full max-w-[600px] mx-auto"
                     />
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/51c95739f3480a3aa7bc32083942edad162cb16c?width=875"
                       alt="Certificate A4 - 20"
-                      className="absolute shrink-0 h-[619px] left-[173px] top-[81px] w-[437px] max-md:h-[475px] max-md:left-[133px] max-md:top-[62px] max-md:w-[335px] max-sm:h-[316px] max-sm:left-[89px] max-sm:top-[42px] max-sm:w-[223px]"
+                      className="absolute shrink-0 h-auto left-[53px] top-[40px] w-auto"
                     />
                   </div>
-
-                  <div className="relative h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
-                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
+                  <div className="relative h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px] max-sm:max-w-[400px]">
+                    <div className="absolute top-0 left-0 shrink-0 bg-neutral-700 h-[700px] w-full max-w-[600px] mx-auto max-md:h-[600px] max-md:w-[600px] max-sm:w-full max-sm:h-[400px]" />
                     <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/1b5e3fbee32e5c21ed0ba39843241a70766bd18c?width=1564"
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/b5745a8932c35b2db1425b46ef3123fcbad52571?width=1564"
                       alt=""
-                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-[782px] w-[782px] max-md:h-[600px] max-md:w-[600px] max-sm:size-full"
+                      className="absolute top-0 left-0 shrink-0 opacity-70 bg-blend-multiply aspect-[1/1] h-full w-full max-w-[600px] mx-auto"
                     />
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/d0a9eaf48f6a11361c4b5b3cd6c187eac8f47ec1?width=875"
                       alt="Certificate A4 - 20"
-                      className="absolute shrink-0 h-[619px] left-[173px] top-[81px] w-[437px] max-md:h-[475px] max-md:left-[133px] max-md:top-[62px] max-md:w-[335px] max-sm:h-[316px] max-sm:left-[89px] max-sm:top-[42px] max-sm:w-[223px]"
+                      className="absolute shrink-0 h-auto left-[53px] top-[40px] w-auto"
                     />
                   </div>
                 </div>

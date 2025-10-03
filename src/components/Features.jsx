@@ -36,8 +36,8 @@ export default function Features() {
               />
             </div>
             <div className="w-full md:pt-[70px]">
-              <div className="hidden md:block w-[328px] pb-[153px] pl-[100px]">
-                <p className="w-[328px] font-semibold text-[15px] text-[rgba(52,52,56,1)] max-md:text-sm max-sm:text-[13px]">
+              <div className="hidden md:block w-auto pb-[153px] pl-[100px]">
+                <p className="max-w-[328px] font-semibold text-[15px] text-[rgba(52,52,56,1)] max-md:text-sm max-sm:text-[13px]">
                   Наша миссия — обеспечить страну стабильными поставками
                   топлива, соответствующего международным стандартам. Мы создаём
                   прозрачные процессы и формируем доверие, делая энергию
@@ -47,7 +47,7 @@ export default function Features() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/6dc154155847bafd0d61c7629f5a3a9e2a54a674?width=2618"
                 alt="Modern Uzenco gas station with quality standards"
-                className="flex-1 w-full h-auto md:h-[774px] object-contain md:object-cover max-md:w-full md:h-[420px] md:pl-[5px]"
+                className="flex-1 w-full h-auto md:h-[774px] object-contain md:object-cover max-md:w-full  md:pl-[5px]"
               />
             </div>
           </div>
